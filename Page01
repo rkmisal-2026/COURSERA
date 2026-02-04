@@ -1,16 +1,40 @@
-Hi
-this is Raju Misal
-Hi
-this is Raju Misal
-Hi
-this is Raju Misal
-Hi
-this is Raju Misal
-Hi
-this is Raju Misal
-Hi
-this is Raju Misal
-Hi
-this is Raju Misal
-Hi
-this is Raju Misal
+n1=eval(input("Enter num 01 :"))
+n2=float(input("Enter num 02 :"))
+
+s=(n2+n1)
+print("Sum Of Two : ",s)
+
+
+n=int(input("Enter Table : "))
+for i in range(1,11):
+    print(n,"X",i, "=", i*n)
+    
+n=int(input("Enter Table : "))
+for i in range(1,11):
+    print(n*i)
+    
+n=1
+i=int(input("Enter Table"))
+while i<=10:
+    print(n*i)
+    n+=1
+n1=eval(input("Enter num 01 :"))
+n2=float(input("Enter num 02 :"))
+
+s=(n2+n1)
+print("Sum Of Two : ",s)
+
+
+n=int(input("Enter Table : "))
+for i in range(1,11):
+    print(n,"X",i, "=", i*n)
+    
+n=int(input("Enter Table : "))
+for i in range(1,11):
+    print(n*i)
+    
+n=1
+i=int(input("Enter Table"))
+while i<=10:
+    print(n*i)
+    n+=1
